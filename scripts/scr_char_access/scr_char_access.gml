@@ -1,0 +1,57 @@
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function scr_char_access(_char_op){
+	
+	switch(_char_op)
+	{
+		case 0 :
+			
+		
+		
+		
+		
+	}
+
+}
+
+
+
+
+function turn_order(_char_list)
+{
+	
+	var _cond_list = _char_list
+	//show_message(_cond_list.HP)
+	var _num = array_length(_cond_list)
+	var _new_list = []
+	
+	var _prev_num = 0
+	var _num_list = []
+	
+	for(var i = 0; i < _num; i++)
+	{
+		var _name = _cond_list[i]
+		var _cur_char = struct_get(global.Characters,_name)
+		var _math = _cur_char.WAIT / _cur_char.SPD
+		
+		array_push(_num_list,_math)
+	}
+	for(var t = 1; t < array_length(_num_list);t++)
+	{
+		if(_num_list[t-1] > _num_list[t])
+		{
+			var _char_reset = _cond_list[t-1]
+			var _reset = _num_list[t-1]
+			array_delete(_num_list,t-1,1)
+			array_delete(_cond_list,t-1,1)
+			array_insert(_num_list,t,_reset)
+			array_insert(_cond_list,t,_char_reset)
+		}
+		//show_message(_num_list)
+	}
+	
+	//show_message(_cond_list)
+	return _cond_list
+
+
+}
