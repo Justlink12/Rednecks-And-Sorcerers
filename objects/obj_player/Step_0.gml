@@ -6,6 +6,7 @@ s_key = keyboard_check(ord("S"))
 d_key = keyboard_check(ord("D"))
 
 
+
 if(w_key){
 	y_spd = -1	
 }
@@ -28,6 +29,13 @@ if(place_meeting(x,y + (move_spd * y_spd),obj_wall))
 {
 	y_spd = 0
 }
+
+if(instance_exists(obj_textbox))
+{
+	x_spd = 0
+	y_spd = 0
+}
+
 y += move_spd * y_spd
 x += move_spd * x_spd
 x_spd = 0

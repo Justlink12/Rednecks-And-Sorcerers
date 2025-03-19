@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 var _space = keyboard_check_pressed(vk_space)
+var _exit = keyboard_check_pressed(vk_escape)
+
+if(_exit)
+{
+	scr_room(global.previous_room)
+}
 
 if(_space)
 {
