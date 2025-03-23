@@ -4,22 +4,22 @@
   "bboxMode":2,
   "bbox_bottom":255,
   "bbox_left":0,
-  "bbox_right":129,
-  "bbox_top":217,
+  "bbox_right":127,
+  "bbox_top":208,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f4a1fedd-c93f-4153-9c7e-b99696f22004","name":"f4a1fedd-c93f-4153-9c7e-b99696f22004","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"189e72a3-5e03-4d21-b938-226105f6a1eb","name":"189e72a3-5e03-4d21-b938-226105f6a1eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":256,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"4f192180-d68f-41b6-8955-8103bd0b2a77","blendMode":0,"displayName":"default","isLocked":false,"name":"4f192180-d68f-41b6-8955-8103bd0b2a77","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8ce723f7-e715-42f1-8ee7-89c64d6d9ac9","blendMode":0,"displayName":"default","isLocked":false,"name":"8ce723f7-e715-42f1-8ee7-89c64d6d9ac9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_hospital_1",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f4a1fedd-c93f-4153-9c7e-b99696f22004","path":"sprites/spr_hospital_1/spr_hospital_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"08b2c561-791e-4b8b-9150-7a306e838235","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"189e72a3-5e03-4d21-b938-226105f6a1eb","path":"sprites/spr_hospital_1/spr_hospital_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c408bbbe-89e6-4872-804c-75d57cf67cf9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

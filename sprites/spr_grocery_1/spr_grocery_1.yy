@@ -2,24 +2,24 @@
   "$GMSprite":"",
   "%Name":"spr_grocery_1",
   "bboxMode":2,
-  "bbox_bottom":147,
-  "bbox_left":1,
-  "bbox_right":255,
-  "bbox_top":122,
+  "bbox_bottom":150,
+  "bbox_left":0,
+  "bbox_right":256,
+  "bbox_top":96,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b06c85d9-194e-4380-b2b4-3e7f327f1dcd","name":"b06c85d9-194e-4380-b2b4-3e7f327f1dcd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"4becad0d-b929-4d3a-a7bf-13de57470afa","name":"4becad0d-b929-4d3a-a7bf-13de57470afa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":150,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"58bfa2eb-9ee7-497f-8f3f-a6d9eeb3a15e","blendMode":0,"displayName":"default","isLocked":false,"name":"58bfa2eb-9ee7-497f-8f3f-a6d9eeb3a15e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"659cbfcf-5a3b-4d5c-80f3-c4709e139d81","blendMode":0,"displayName":"default","isLocked":false,"name":"659cbfcf-5a3b-4d5c-80f3-c4709e139d81","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_grocery_1",
   "nineSlice":{
@@ -88,8 +88,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b06c85d9-194e-4380-b2b4-3e7f327f1dcd","path":"sprites/spr_grocery_1/spr_grocery_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"982ff1cb-ac2c-4e86-a2ec-89d7e7282ab3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4becad0d-b929-4d3a-a7bf-13de57470afa","path":"sprites/spr_grocery_1/spr_grocery_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f044da72-c6b1-4cfb-9784-b0632dc45b12","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
