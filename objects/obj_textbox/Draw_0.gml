@@ -2,8 +2,8 @@ var accept_key = keyboard_check_pressed(vk_space)
 
 
 
-var textbox_x = camera_get_view_x(view_camera[0])
-var textbox_y = camera_get_view_y(view_camera[0]) + 144
+var textbox_x = camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0])/2) 
+var textbox_y = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - (textbox_height + 16)
 
 //setup
 if setup == false
@@ -22,8 +22,8 @@ if setup == false
 	
 		//get the x position for the textbox
 			//character on the left
-			text_x_offset[p] = 80
-			portrait_x_offset[p] = 8
+			text_x_offset[p] = 128 
+			portrait_x_offset[p] = 8 - textbox_width
 			
 			//character on the right
 			if speaker_side[p] == -1
@@ -35,7 +35,7 @@ if setup == false
 			//no character (center the textbox)
 			if speaker_sprite[p] == noone 
 			{
-				text_x_offset[p] = 44;
+				text_x_offset[p] = 0;
 			}
 		//setting individual characters and finding where the lines of text should break
 		for(var c = 0; c < text_length[p]; c++)
@@ -95,7 +95,7 @@ if setup == false
 			}
 			
 			//add to the x and y coordinates based on the new info
-			char_x[c,p] = _txt_x + _current_txt_w + 8
+			char_x[c,p] = _txt_x + _current_txt_w + 8 - textbox_width
 			char_y[c,p] = _txt_y + _txt_line * line_sep
 				
 			
@@ -191,12 +191,12 @@ if speaker_sprite[page] != noone
 	var _speaker_x = textbox_x + portrait_x_offset[page]
 	if speaker_side[page] == -1 {_speaker_x += sprite_width};
 	//draw the speaker
-	draw_sprite_ext(txtb_spr[page], txtb_img,textbox_x + portrait_x_offset[page], textbox_y, sprite_width/txtb_spr_w, sprite_height/txtb_spr_h,0,c_white,1)
-	draw_sprite_ext(sprite_index, image_index, _speaker_x, textbox_y, speaker_side[page],1,0,c_white,1)
+	//draw_sprite_ext(txtb_spr[page], txtb_img,textbox_x + portrait_x_offset[page], textbox_y, sprite_width/txtb_spr_w, sprite_height/txtb_spr_h,0,c_white,1)
+	draw_sprite_ext(sprite_index, image_index, _speaker_x-128, textbox_y-128, speaker_side[page],1,0,c_white,1)
 }
 
 //back of textbox
-draw_sprite_ext(txtb_spr[page], txtb_img, _txtb_x,_txtb_y, textbox_width/txtb_spr_w,textbox_height/txtb_spr_h,0,c_white,1)
+draw_sprite_ext(txtb_spr[page], txtb_img, _txtb_x - textbox_width,_txtb_y, textbox_width/txtb_spr_w,textbox_height/txtb_spr_h,0,c_white,1)
 
 
 //options

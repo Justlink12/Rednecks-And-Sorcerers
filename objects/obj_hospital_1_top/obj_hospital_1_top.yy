@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trailer_1",
-  "eventList":[],
+  "%Name":"obj_hospital_1_top",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_trailer_1",
+  "name":"obj_hospital_1_top",
   "overriddenProperties":[],
   "parent":{
     "name":"Town 1",
     "path":"folders/Objects/Town 1.yy",
   },
-  "parentObjectId":{
-    "name":"obj_wall",
-    "path":"objects/obj_wall/obj_wall.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_trailer_1",
-    "path":"sprites/spr_trailer_1/spr_trailer_1.yy",
+    "name":"spr_hospital_1_top",
+    "path":"sprites/spr_hospital_1_top/spr_hospital_1_top.yy",
   },
   "spriteMaskId":null,
   "visible":true,

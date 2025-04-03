@@ -102,6 +102,12 @@ function scr_text(_text){
 				txtb_spr[page_number] = spr_textbox_pink
 				snd[page_number] = snd_water
 			break;
+			
+			case "patrice":
+				speaker_sprite[page_number] = spr_char_3
+				txtb_spr[page_number] = spr_textbox_pink
+				snd[page_number] = snd_water
+			break;
 
 		}
 	}

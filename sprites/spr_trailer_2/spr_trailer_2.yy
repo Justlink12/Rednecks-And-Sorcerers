@@ -23,7 +23,7 @@
   ],
   "name":"spr_trailer_2",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Town 1",
     "path":"folders/Sprites/Town 1.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":70,
+    "xorigin":64,
     "yorigin":64,
   },
   "swatchColours":null,

@@ -20,7 +20,7 @@ function scr_game_text(_text_id){
 					scr_option("Yip Yip!", "npc 1 - ew")
 			break;
 			case "npc 1 - no":
-				scr_text("Bleh")
+				scr_text("Bleh", "patrice")
 			break;
 				case "npc 1 - ew":
 					scr_text("Umm, no, you're not a fox pal... You should go...")
