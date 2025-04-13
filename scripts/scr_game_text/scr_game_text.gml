@@ -34,7 +34,7 @@ function scr_game_text(_text_id){
 		break;
 
 		case "npc 3":
-			scr_text("Hi I am npc 3")
+			scr_text("Hi I am Brandon", "brandon")
 			scr_text("I am a wolf")
 			scr_text("Hear me awooo!")
 		break;

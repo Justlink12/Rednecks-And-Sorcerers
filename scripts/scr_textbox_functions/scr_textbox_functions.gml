@@ -108,6 +108,12 @@ function scr_text(_text){
 				txtb_spr[page_number] = spr_textbox_pink
 				snd[page_number] = snd_water
 			break;
+			
+			case "brandon":
+				speaker_sprite[page_number] = spr_brandon_talk
+				txtb_spr[page_number] = spr_textbox_pink
+				snd[page_number] = snd_water
+			break;
 
 		}
 	}
