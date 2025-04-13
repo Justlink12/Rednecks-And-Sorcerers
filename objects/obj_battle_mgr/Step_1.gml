@@ -3,9 +3,9 @@
 if(!setup)
 {
 	
-	with(instance_create_depth(4,6,-10,obj_top_box))
+	with(instance_create_depth(6,6,-10,obj_top_box))
 	{
-		image_xscale = 14
+		image_xscale = 29
 		image_yscale = 2
 	}
 	with(instance_create_layer(0,0,"BattleGround",obj_background_fight))
@@ -22,6 +22,8 @@ if(!setup)
 			{
 				
 				char = other.chars[0]
+				image_xscale = other.scaling
+				image_yscale = other.scaling
 			}
 		break;
 		
@@ -31,7 +33,8 @@ if(!setup)
 				new_x = two_team[s]
 				with(instance_create_depth(new_x,def_y,0,obj_npc_stat))
 				{
-					
+					image_xscale = other.scaling
+					image_yscale = other.scaling
 					char = other.chars[s]
 				}
 			}
@@ -44,6 +47,8 @@ if(!setup)
 				with(instance_create_depth(new_x,def_y,0,obj_npc_stat))
 				{
 					char = other.chars[s]
+					image_xscale = other.scaling
+					image_yscale = other.scaling
 				}
 			}
 		break;
@@ -58,12 +63,14 @@ if(!setup)
 					//show_message(s)
 					//show_message(other.chars[s])
 					char = other.chars[s]
+					image_xscale = other.scaling
+					image_yscale = other.scaling
 				}
 			}
 		break;
 	}
 	
 	out_char = turn_order(chars)
-	
+	instance_create_depth(center_x,def_y - 100,0,obj_bat_emy)
 	setup = true
 }

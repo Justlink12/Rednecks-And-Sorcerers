@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-last_room = room
-en_id = "Gator"
+enemy = get_enemy_data(global.curr_enem)
+sprite_index = enemy.en_sprite

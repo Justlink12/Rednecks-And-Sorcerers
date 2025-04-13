@@ -8,8 +8,8 @@ global.Characters =
 		SPD: 1.75,
 		Attacks :  
 		{
-			PUNCH: ["Punch",15],
-			ROD: ["Fishing Rod", 18]
+			PUNCH: 15,
+			ROD:  18,
 		},
 	
 		CUR_ATTACK: 0,
@@ -25,8 +25,8 @@ global.Characters =
 	
 		Attacks :  
 		{
-			MAGIC: ["MAGIC",20],
-			KICK: ["KICK", 10]
+			MAGIC: 20,
+			KICK:  10
 		},
 	
 		CUR_ATTACK: 0,
@@ -40,8 +40,8 @@ global.Characters =
 		SPD: 2.5,
 		Attacks :  
 		{
-			MAG: ["MAG",13],
-			CK: ["CK", 2]
+			MAG: 13,
+			CK:  2
 		},
 	
 		CUR_ATTACK: 0,
@@ -56,8 +56,8 @@ global.Characters =
 		SPD: 2.2,
 		Attacks :
 		{
-			MIDKG: ["Msdf",13],
-			CKitten: ["CK", 3]
+			MIDKG: 13,//
+			CKitten: 3//
 		},
 	
 		CUR_ATTACK: 0,

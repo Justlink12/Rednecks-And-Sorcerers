@@ -19,20 +19,31 @@ function scr_char_access(_char_op){
 
 function turn_order(_char_list)
 {
-	
+	//show_message(_char_list)
 	var _cond_list = _char_list
 	//show_message(_cond_list.HP)
 	var _num = array_length(_cond_list)
 	var _new_list = []
-	
+	var _cur_char = 0
 	var _prev_num = 0
 	var _num_list = []
 	
 	for(var i = 0; i < _num; i++)
 	{
 		var _name = _cond_list[i]
-		var _cur_char = struct_get(global.Characters,_name)
-		var _math = _cur_char.WAIT / _cur_char.SPD
+		try{
+			 _cur_char = struct_get(global.Characters,_name)
+			 
+			 var _math = _cur_char.WAIT / _cur_char.SPD
+		}
+		catch(_exception){
+			 _cur_char = struct_get(global.Enemies,_name)
+			 var _math = _cur_char.WAIT / _cur_char.SPD
+			 
+		}
+		
+		
+		
 		
 		array_push(_num_list,_math)
 	}

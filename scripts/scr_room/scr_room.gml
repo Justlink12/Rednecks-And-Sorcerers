@@ -6,3 +6,10 @@ function scr_room(roomInd){
 	room_goto(roomInd)
 
 }
+
+
+function enemy_set(enemy)
+{
+	global.curr_enem = enemy
+	
+}
