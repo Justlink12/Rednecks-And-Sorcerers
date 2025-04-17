@@ -3,25 +3,28 @@ var _xspot = x + 2
 var _yspot = y + 6
 var _char = global.Characters.Aspen.HP
 draw_set_color(c_black)
+
 if(box_type == 1)
 {
 	switch(box_char)
 	{
 		case "Aspen":
 			_char = global.Characters.Aspen.HP
+			//draw_text(_xspot,_yspot-30, "WAIT: " + string(global.Characters.Aspen.WAIT))
 		break;
 			
 		case "Alya":
 			_char = global.Characters.Alya.HP
+			//draw_text(_xspot,_yspot-30, "WAIT: " + string(global.Characters.Alya.WAIT))
 		break;
 		
-		case "PLACE":
+		/*case "PLACE":
 			_char = global.Characters.PLACE.HP
 		break;
 		
 		case "PLACE2":
 			_char = global.Characters.PLACE2.HP
-		break;
+		break;*/
 	}
 	
 }
@@ -37,13 +40,13 @@ else
 			_char = global.Characters.Alya.ENR
 		break;
 		
-		case "PLACE":
+		/*case "PLACE":
 			_char = global.Characters.PLACE.ENR
 		break;
 		
 		case "PLACE2":
 			_char = global.Characters.PLACE2.ENR
-		break;
+		break;*/
 	}
 }
 switch(box_num)

@@ -66,3 +66,16 @@ function turn_order(_char_list)
 
 
 }
+
+
+///@param Attacking Char
+///@param [hit]
+function display_attack(cur_char)
+{
+	
+	_text = string_concat(cur_char," attacked ",argument[1]," !")
+	//show_message(_text)
+	
+	return _text
+	
+}

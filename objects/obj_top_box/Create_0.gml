@@ -16,3 +16,7 @@ y_offset = 12
 
 spr_x_offset = 5
 spr_y_offset = 8
+
+attack_name = "Attacks"
+enemy_turn = false
+no_draw = false

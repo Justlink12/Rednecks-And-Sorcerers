@@ -13,6 +13,7 @@ global.Characters =
 		},
 	
 		CUR_ATTACK: 0,
+		CUR_ATTACK_NAME: "idk",
 		WAIT: 20
 	
 	},
@@ -30,6 +31,7 @@ global.Characters =
 		},
 	
 		CUR_ATTACK: 0,
+		CUR_ATTACK_NAME: "idk",
 		WAIT: 20
 	},
 	

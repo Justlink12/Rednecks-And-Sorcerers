@@ -1,5 +1,5 @@
 //initial values
-characters = 3
+characters = 1
 setup = false
 x_offset = 80
 new_x = 0
@@ -18,13 +18,17 @@ def_y = 250
 all_char = 0
 out_char = "Aspen"
 
-chars[3] = "PLACE2"
+//chars[3] = "PLACE2"
 chars[1] = "Alya"
-chars[2] = "PLACE"
+//chars[2] = "PLACE"
 chars[0] = "Aspen"
-chars[4] = get_enemy_data(global.curr_enem).name
+chars[2] = get_enemy_data(global.curr_enem).name
 //show_message(chars[4])
 //show_message(chars)
 
 enemy_turn = false
 turn_over = false
+attack_active = false
+attack_text = "attacks"
+skip = false
+vict = "Hold"

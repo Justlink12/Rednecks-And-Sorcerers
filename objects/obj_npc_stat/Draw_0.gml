@@ -13,10 +13,23 @@ for(var t = 0; t < 3; t++)
 */
 var _cur_char = obj_battle_mgr.out_char[0]
 //show_message(_cur_char)
-if(char == _cur_char)
+if(!obj_battle_mgr.attack_active)
 {
-	image_blend = c_red
+	if(char == _cur_char)
+	{
+		image_blend = c_red
+	}
+	else{
+		image_blend = c_white	
+	}
 }
-else{
-	image_blend = c_white	
+for(i = 0; i<=1; i++)
+{
+	if(i==0){		
+		draw_text(x,y-100,"WAIT: " + string(global.Characters.Alya.WAIT))
+	}
+	if(i==1){
+		draw_text(x,y-120,"WAIT: " + string(global.Characters.Aspen.WAIT))
+	}
+	
 }
