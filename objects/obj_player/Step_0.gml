@@ -7,6 +7,7 @@ d_key = keyboard_check(ord("D"))
 
 
 
+
 if(w_key){
 	y_spd = -1	
 }

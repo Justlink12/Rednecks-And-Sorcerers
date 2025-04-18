@@ -114,6 +114,12 @@ function scr_text(_text){
 				txtb_spr[page_number] = spr_textbox_pink
 				snd[page_number] = snd_water
 			break;
+			
+			case "jason":
+				speaker_sprite[page_number] = spr_jason_talk
+				txtb_spr[page_number] = spr_textbox_red
+				snd[page_number] = snd_water
+			break;
 
 		}
 	}
@@ -154,3 +160,4 @@ function create_textbox(_text_id)
 	}
 	
 }
+

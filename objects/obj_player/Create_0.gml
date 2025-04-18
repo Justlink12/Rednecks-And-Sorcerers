@@ -3,3 +3,5 @@
 move_spd = 1
 x_spd = 0
 y_spd = 0
+invent = ["fishing rod"]
+display = false

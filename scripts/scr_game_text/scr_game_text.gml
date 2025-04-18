@@ -6,25 +6,25 @@ function scr_game_text(_text_id){
 		//--------NPC 1---------------//
 		case "npc 1":
 			//Top text
-			scr_text("Hi I am Aspen. It's cool to talk now", "aspen", -1)
-				scr_text_color(8,13, c_white, c_maroon, c_aqua,c_white)
+			scr_text("Oh hi Aspen, can you take these flowers to my Jason for me He asked me to bring them to him but I'm very busy? Thanks!", "patrice", -1)
+				//scr_text_color(8,13, c_white, c_maroon, c_aqua,c_white)
 				//scr_text_float(8,13)
-				scr_text_shake(8,13)
-			scr_text("I am a white fox, who is only a lil stimky but sometimes smart. I can also fight very well.")
-			scr_text("Hear me yip!")
-				scr_option("Yeah","npc 1 - yes")
-				scr_option("No","npc 1 - no")
+				//scr_text_shake(8,13)
+			scr_text("Oh, uh I guess?","aspen",1)
+			scr_text("Here you go!","patrice",-1)
+				scr_option("Sure, whatever...","npc-1 - yes")
+				scr_option("Ugh...","npc 1 - no")
 		break;
-			case "npc 1 - yes":
-				scr_text("Yay! Yip Yip!", "aspen - happy", -1)
-					scr_option("Yip Yip!", "npc 1 - ew")
+			case "npc-1 - yes":
+				scr_text("She didn't really give you a choice though.", "alya", -1)
+					scr_option("That's how Patricia is.", "npc 1 - ew")
 			break;
 			case "npc 1 - no":
-				scr_text("Bleh", "patrice")
+				scr_text("Now go on, attitude and all", "patrice",-1)
 			break;
 				case "npc 1 - ew":
-					scr_text("Umm, no, you're not a fox pal... You should go...")
-					scr_text("Oh... ok i will go then... jerk...", "alya", 1)
+					scr_text("Is everyone here so pushy?", "alya",-1)
+					scr_text("In my experience, yep. Wait till you meet Jae", "aspen", 1)
 				break;
 		
 		case "npc 2":
@@ -34,10 +34,26 @@ function scr_game_text(_text_id){
 		break;
 
 		case "npc 3":
-			scr_text("Hi I am Brandon", "brandon")
-			scr_text("I am a wolf")
-			scr_text("Hear me awooo!")
-		break;
+			scr_text("Oh, Aspen? What brings you here, without handcuffs on?", "jason",1)
+			scr_text("Oh, uh...", "aspen",-1)
+			scr_text("Ahhh, I'm just joking. Sorry if I embarrassed yyou infront of your new lady friend.", "jason",-1)
+			scr_text("Lady-friend? Aspen what does that mean?", "alya",-1)
+				scr_option("Hand over the flowers","aspen - rush")
+				scr_option("Oh, it just means... friends?","aspen - flust")
+			break;
+				
+			case "aspen - rush":
+				scr_text("Huh, oh thanks. I'll let Patrice know I appreciate these!","jason",-1)
+			break;
+			
+			case "aspen - flust":
+				scr_text("Oh, then yes I am his lady-friend","alya",-1)
+				scr_text("Make sure the next flowers go to her *wink*","jason",-1)
+				scr_text("Come on Alya, let's get out of here","aspen",1)
+			break;
+			
+			
+		
 		
 	}
 
