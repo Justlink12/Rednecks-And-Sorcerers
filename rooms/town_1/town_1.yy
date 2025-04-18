@@ -24,6 +24,7 @@
     {"name":"inst_BB391C9","path":"rooms/town_1/town_1.yy",},
     {"name":"inst_E8E8099","path":"rooms/town_1/town_1.yy",},
     {"name":"inst_1C0DDF9C","path":"rooms/town_1/town_1.yy",},
+    {"name":"inst_79B5117C","path":"rooms/town_1/town_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -46,6 +47,7 @@
         {"$GMRInstance":"v1","%Name":"inst_BB391C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_BB391C9","objectId":{"name":"obj_bush_1","path":"objects/obj_bush_1/obj_bush_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":593.0,"y":685.0,},
         {"$GMRInstance":"v1","%Name":"inst_E8E8099","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E8E8099","objectId":{"name":"obj_bush_1","path":"objects/obj_bush_1/obj_bush_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":578.0,"y":699.0,},
         {"$GMRInstance":"v1","%Name":"inst_1C0DDF9C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C0DDF9C","objectId":{"name":"obj_hospital_1_top","path":"objects/obj_hospital_1_top/obj_hospital_1_top.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":351.0,"y":545.0,},
+        {"$GMRInstance":"v1","%Name":"inst_79B5117C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79B5117C","objectId":{"name":"obj_gas_station","path":"objects/obj_gas_station/obj_gas_station.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.625,"scaleY":0.55078125,"x":889.0,"y":435.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":30,"TileCompressedData":[
           -10,-2147483648,4,9,10,11,12,-5,-2147483648,3,2,10,11,-17,-2147483648,5,16,17,18,19,20,-4,-2147483648,
