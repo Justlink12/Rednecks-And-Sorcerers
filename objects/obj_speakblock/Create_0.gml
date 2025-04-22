@@ -6,3 +6,4 @@ give = false
 item = "None"
 receive = false
 item_need = "None"
+name = "None"

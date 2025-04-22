@@ -14,8 +14,8 @@ global.Characters =
 	
 		CUR_ATTACK: 0,
 		CUR_ATTACK_NAME: "idk",
-		WAIT: 20
-	
+		WAIT: 20,
+		MONEY: $10
 	},
 	
 	Alya : 
@@ -35,7 +35,7 @@ global.Characters =
 		WAIT: 20
 	},
 	
-	PLACE : 
+	/*PLACE : 
 	{
 		HP: 213,
 		ENR: 246,
@@ -64,7 +64,7 @@ global.Characters =
 	
 		CUR_ATTACK: 0,
 		WAIT: 20
-	}
+	}*/
 	
 
 }

@@ -52,7 +52,12 @@ function scr_game_text(_text_id){
 				scr_text("Come on Alya, let's get out of here","aspen",1)
 			break;
 			
-			
+		case "ov_connor":
+			scr_text("What do you want?", "connor", 1)
+			scr_text("I want you off my back! Another application for another stupid business?", "brandon",-1)
+			scr_text("Fixing cars isn't going to make you enough money Brandon. You should have gone to college like me. Mom and dad can't keep bailing you out.", "connor",1)
+			scr_text("Shove it Connor. Let me live my life. You don't see me messing with yours!", "brandon",-1)
+		break;
 		
 		
 	}

@@ -15,7 +15,7 @@ switch(obj_battle_mgr.out_char[0])
 		no_draw = false
 	break;
 	
-	case "PLACE":
+	/*case "PLACE":
 		_att_len = struct_names_count(global.Characters.PLACE.Attacks)
 		_names = struct_get_names(global.Characters.PLACE.Attacks)
 		enemy_turn = false
@@ -27,7 +27,7 @@ switch(obj_battle_mgr.out_char[0])
 		_names = struct_get_names(global.Characters.PLACE2.Attacks)
 		enemy_turn = false
 		no_draw = false
-	break;
+	break;*/
 	case get_enemy_data(global.curr_enem).name:
 		_att_len = 1
 		_names = struct_get_names(get_enemy_data(global.curr_enem).Attacks)
@@ -38,7 +38,7 @@ switch(obj_battle_mgr.out_char[0])
 }
 
 
-op += keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up)
+op += keyboard_check_pressed(ord("S")) - keyboard_check_pressed(ord("W"))
 //op = clamp(op, 0,_att_len)
 
 if op > _att_len-1 {op=0}

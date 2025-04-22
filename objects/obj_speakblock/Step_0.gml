@@ -1,4 +1,4 @@
-
+depth = -bbox_bottom
 if (distance_to_object(obj_player) < 10) && keyboard_check_pressed(vk_space) && !instance_exists(obj_textbox)
 {
 	create_textbox(text_id)

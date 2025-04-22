@@ -30,9 +30,9 @@ if(_space && !attack_active)
 				get_enemy_data(global.curr_enem).WAIT +=0.75	
 			}
 			global.Characters.Aspen.WAIT += 5 -(global.Characters.Aspen.SPD / 10)
-			global.Characters.PLACE2.WAIT -= 1
+			//global.Characters.PLACE2.WAIT -= 1
 			global.Characters.Alya.WAIT -= 1
-			global.Characters.PLACE.WAIT -= 1
+			//global.Characters.PLACE.WAIT -= 1
 			all_char = 0
 			
 		break;
@@ -45,13 +45,13 @@ if(_space && !attack_active)
 			}
 			global.Characters.Alya.WAIT += 5 - (global.Characters.Alya.SPD / 10)
 			global.Characters.Aspen.WAIT -= 1
-			global.Characters.PLACE2.WAIT -= 1
-			global.Characters.PLACE.WAIT -= 1
+			//global.Characters.PLACE2.WAIT -= 1
+			//global.Characters.PLACE.WAIT -= 1
 			all_char = 1
 			
 		break;
 		
-		case "PLACE":
+		/*case "PLACE":
 			get_enemy_data(global.curr_enem).HP -= global.Characters.PLACE.CUR_ATTACK
 			global.Characters.PLACE.WAIT += 10
 			global.Characters.Aspen.WAIT -= 1
@@ -68,7 +68,7 @@ if(_space && !attack_active)
 			global.Characters.Alya.WAIT -= 1
 			global.Characters.PLACE.WAIT -= 1
 			all_char = 3
-		break;
+		break;*/
 		
 		case get_enemy_data(global.curr_enem).name:
 			enemy_turn = true

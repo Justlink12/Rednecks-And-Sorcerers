@@ -13,3 +13,8 @@ function enemy_set(enemy)
 	global.curr_enem = enemy
 	
 }
+
+function name_set(npc)
+{
+	global.cur_npc = npc	
+}

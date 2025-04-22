@@ -43,3 +43,5 @@ last_free_space = 0
 
 text_pause_timer = 0
 text_pause_time = 16
+
+name = "PLACE"

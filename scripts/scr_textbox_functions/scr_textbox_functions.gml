@@ -88,38 +88,52 @@ function scr_text(_text){
 		{
 			case "aspen":
 				speaker_sprite[page_number] = spr_char_1_spk
+				speaker_name[page_number] = "Aspen"
 				txtb_spr[page_number] = spr_textbox_red
 				snd[page_number] = snd_water
 			break;
 			case "aspen - happy":
 				speaker_sprite[page_number] = spr_char_1_spk_happy
+				speaker_name[page_number] = "Aspen"
 				txtb_spr[page_number] = spr_textbox_red
 				snd[page_number] = snd_water
 			break;
 			
 			case "alya":
 				speaker_sprite[page_number] = spr_char_2
-				txtb_spr[page_number] = spr_textbox_pink
+				speaker_name[page_number] = "Alya"
+				txtb_spr[page_number] = spr_textbox_purple
 				snd[page_number] = snd_water
 			break;
 			
 			case "patrice":
 				speaker_sprite[page_number] = spr_char_3
+				speaker_name[page_number] = "Patrice"
 				txtb_spr[page_number] = spr_textbox_pink
 				snd[page_number] = snd_water
 			break;
 			
 			case "brandon":
 				speaker_sprite[page_number] = spr_brandon_talk
-				txtb_spr[page_number] = spr_textbox_pink
+				speaker_name[page_number] = "Brandon"
+				txtb_spr[page_number] = spr_textbox_blue
 				snd[page_number] = snd_water
 			break;
 			
 			case "jason":
 				speaker_sprite[page_number] = spr_jason_talk
+				speaker_name[page_number] = "Jason"
 				txtb_spr[page_number] = spr_textbox_red
 				snd[page_number] = snd_water
 			break;
+			
+			case "connor":
+				speaker_sprite[page_number] = spr_connor_talk
+				speaker_name[page_number] = "Connor"
+				txtb_spr[page_number] = spr_textbox_grey
+				snd[page_number] = snd_water
+			break;
+
 
 		}
 	}
