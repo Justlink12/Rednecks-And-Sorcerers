@@ -70,10 +70,23 @@ function turn_order(_char_list)
 
 ///@param Attacking Char
 ///@param [hit]
+///@param [attack]
+///@param [additive]
 function display_attack(cur_char)
 {
-	
-	_text = string_concat(cur_char," attacked ",argument[1]," !")
+	if(argument_count>2)
+	{
+		_text = string_concat(cur_char," used ",argument[2]," on ",argument[1],"! ")
+		if(argument[3])
+		{
+			_new_text = string_concat(_text," ", argument[1], " was slowed down a bit!")
+			_text = _new_text
+		}
+	}
+	else
+	{
+		_text = string_concat(cur_char," attacked ",argument[1]," !")
+	}
 	//show_message(_text)
 	
 	return _text

@@ -7,15 +7,15 @@ global.Enemies =
 	{
 		name: "Gator",
 		en_sprite: spr_gator,
-		HP: 100,
+		HP: 2300,
 		ENR: 156,
 		SPD: 1.75,
 		Attacks :  
 		{
-			PUNCH: ["GAT",15],
-			ROD: ["OR", 18]
+			Slam: 15,
+			Deal: 0
 		},
-	
+		CUR_ATTACK_NAME: "idk",
 		CUR_ATTACK: 0,
 		WAIT: 20
 	
@@ -31,10 +31,10 @@ global.Enemies =
 	
 		Attacks :  
 		{
-			RockThrow: ["RO",20],
-			Roll: ["CKS", 10]
+			Tumble: 20,
+			Staredown: 0
 		},
-	
+		CUR_ATTACK_NAME: "idk",
 		CUR_ATTACK: 0,
 		WAIT: 20
 	},
@@ -46,26 +46,28 @@ global.Enemies =
 		SPD: 2.5,
 		Attacks :  
 		{
-			MAG: ["SHO",13],
-			CK: ["ST", 2]
+			Etherial: 20,
+			Screech: 5
 		},
-	
+		CUR_ATTACK_NAME: "idk",
 		CUR_ATTACK: 0,
 		WAIT: 20
 	
 	},
 	
-	MUMMY : 
+	Mummy : 
 	{
+		name: "Mummy",
+		en_sprite : spr_mummy,
 		HP: 123,
 		ENR: 654,
 		SPD: 2.2,
 		Attacks :
 		{
-			MIDKG: ["MUM",13],
-			CKitten: ["MY", 3]
+			Wraps: 8,
+			Breath: 3
 		},
-	
+		CUR_ATTACK_NAME: "idk",
 		CUR_ATTACK: 0,
 		WAIT: 20
 	}

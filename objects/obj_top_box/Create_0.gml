@@ -20,3 +20,5 @@ spr_y_offset = 8
 attack_name = "Attacks"
 enemy_turn = false
 no_draw = false
+en_attack_num = 0
+en_over = true

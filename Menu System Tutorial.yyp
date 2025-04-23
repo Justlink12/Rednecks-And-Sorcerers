@@ -231,6 +231,7 @@
     {"id":{"name":"spr_lily_talk","path":"sprites/spr_lily_talk/spr_lily_talk.yy",},},
     {"id":{"name":"spr_main_font","path":"sprites/spr_main_font/spr_main_font.yy",},},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
+    {"id":{"name":"spr_mummy","path":"sprites/spr_mummy/spr_mummy.yy",},},
     {"id":{"name":"spr_npc_stat","path":"sprites/spr_npc_stat/spr_npc_stat.yy",},},
     {"id":{"name":"spr_patrice_small","path":"sprites/spr_patrice_small/spr_patrice_small.yy",},},
     {"id":{"name":"spr_pharmacy_1","path":"sprites/spr_pharmacy_1/spr_pharmacy_1.yy",},},

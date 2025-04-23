@@ -54,6 +54,14 @@ switch(box_num)
 	case 0:
 		var _hund = floor(_char/100)
 		draw_text(_xspot,_yspot,string(_hund))
+		if(box_type == 1)
+		{
+			draw_sprite(spr_hp_text,0,x-20,y)
+		}
+		if(box_type == 2)
+		{
+			draw_sprite(spr_en_text,0,x-20,y)
+		}
 	break;
 	
 	case 1:

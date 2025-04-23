@@ -25,10 +25,11 @@ chars[0] = "Aspen"
 chars[2] = get_enemy_data(global.curr_enem).name
 //show_message(chars[4])
 //show_message(chars)
-
+cur_attack = "idk"
 enemy_turn = false
 turn_over = false
 attack_active = false
 attack_text = "attacks"
 skip = false
 vict = "Hold"
+slow = false

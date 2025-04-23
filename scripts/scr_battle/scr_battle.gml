@@ -16,6 +16,12 @@ function get_enemy_data(enemy)
 	{
 		return global.Enemies.Rock	
 	}
+	
+	if enemy == "Mummy"
+	{
+		return global.Enemies.Mummy	
+	}
 		
 	
 }
+//RESET THE VALUES FOR ENEMY FIGHTS IN BETWEEN FIGHTS

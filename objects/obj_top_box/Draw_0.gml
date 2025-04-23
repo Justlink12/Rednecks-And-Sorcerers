@@ -32,6 +32,7 @@ switch(obj_battle_mgr.out_char[0])
 		_att_len = 1
 		_names = struct_get_names(get_enemy_data(global.curr_enem).Attacks)
 		enemy_turn = true
+		
 	break;
 	
 
@@ -43,7 +44,14 @@ op += keyboard_check_pressed(ord("S")) - keyboard_check_pressed(ord("W"))
 
 if op > _att_len-1 {op=0}
 else if op < 0 {op = _att_len-1}
-
+if(enemy_turn)
+{
+	op=round(random_range(0,1))
+	en_over = false
+}
+else{
+	en_over = true	
+}
 draw_self()
 draw_set_color(c_white)
 if(obj_battle_mgr.attack_active)
@@ -80,3 +88,9 @@ global.Characters.Alya.CUR_ATTACK_NAME =  _names[op]
 //show_message(global.Characters.PLACE.CUR_ATTACK)
 //global.Characters.PLACE2.CUR_ATTACK = variable_struct_get(global.Characters.PLACE2.Attacks,_names[op])
 get_enemy_data(global.curr_enem).CUR_ATTACK = variable_struct_get(get_enemy_data(global.curr_enem).Attacks,_names[op])
+get_enemy_data(global.curr_enem).CUR_ATTACK_NAME =  _names[op]
+
+if(!en_over)
+{
+	en_attack_num = op
+}
