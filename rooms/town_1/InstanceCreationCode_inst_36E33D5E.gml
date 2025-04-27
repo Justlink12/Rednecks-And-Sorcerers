@@ -1,0 +1,9 @@
+text_id = "patrice-1"
+follow = "patrice-2"
+quest = true
+give = true
+item = "Flowers"
+item_need = "None"
+receive = false
+sprite_index = spr_patrice_small
+name = "Patrice"

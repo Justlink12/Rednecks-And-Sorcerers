@@ -133,6 +133,12 @@ function scr_text(_text){
 				txtb_spr[page_number] = spr_textbox_grey
 				snd[page_number] = snd_water
 			break;
+			
+			case "cop":
+				speaker_sprite[page_number] = spr_cop_talk
+				speaker_name[page_number] = "Officer"
+				txtb_spr[page_number] = spr_textbox_blue
+				snd[page_number] = snd_water
 
 
 		}

@@ -8,6 +8,7 @@ if (distance_to_object(obj_player) < 10) && keyboard_check_pressed(vk_space) && 
 		if(give)
 		{
 			array_push(obj_player.invent,item)
+			text_id = follow
 			//show_message(obj_player.invent)
 		}
 		else if(receive)
