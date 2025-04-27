@@ -4,8 +4,12 @@ w_key = keyboard_check(ord("W"))
 a_key = keyboard_check(ord("A"))
 s_key = keyboard_check(ord("S"))
 d_key = keyboard_check(ord("D"))
+enter_key = keyboard_check_pressed(ord("B"))
 
-
+if(enter_key)
+{
+	scr_room(rm_grocery)
+}
 
 
 if(w_key){

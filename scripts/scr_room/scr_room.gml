@@ -18,3 +18,10 @@ function name_set(npc)
 {
 	global.cur_npc = npc	
 }
+
+function scr_room_change(_x,_y,_rm)
+{
+	obj_player.x = _x
+	obj_player.y = _y
+	scr_room(_rm)
+}
