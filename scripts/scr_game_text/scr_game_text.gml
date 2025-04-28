@@ -10,7 +10,7 @@ function scr_game_text(_text_id){
 				//scr_text_color(8,13, c_white, c_maroon, c_aqua,c_white)
 				//scr_text_float(8,13)
 				//scr_text_shake(8,13)
-			scr_text("Oh, uh I guess?","aspen",1)
+			scr_text("Oh, uh I guess?","aspen - happy",1)
 			scr_text("Here you go!","patrice",-1)
 				scr_option("Sure, whatever...","npc-1 - yes")
 				scr_option("Ugh...","npc 1 - no")

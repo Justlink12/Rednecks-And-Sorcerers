@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Dialogue Art",
-    "path":"folders/Dialogue System/Dialogue Art.yy",
+    "name":"Smalls",
+    "path":"folders/Dialogue System/Dialogue Art/Smalls.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
