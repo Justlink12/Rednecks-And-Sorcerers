@@ -5,6 +5,10 @@ function scr_game_text(_text_id){
 	{
 		//--------Patrice---------------//
 		case "patrice-1":
+			scr_text("What up homie")
+			break;
+		
+		case "patrice-2":
 			//Top text
 			scr_text("Oh hi Aspen, can you take these flowers to my Jason for me He asked me to bring them to him but I'm very busy? Thanks!", "patrice", -1)
 				//scr_text_color(8,13, c_white, c_maroon, c_aqua,c_white)
@@ -27,7 +31,7 @@ function scr_game_text(_text_id){
 					scr_text("In my experience, yep. Wait till you meet Jae", "aspen", 1)
 				break;
 				
-		case "patrice-2":
+		case "patrice-3":
 			scr_text("Ezekial never deals with his father's birthday well.", "patrice",-1)
 			scr_text("Why is that, if you don't mind me asking?","alya",1)
 			scr_text("We lost Todd to a serial killer 8 years back. We miss him everyday. His birthday would be tomorrow, and that day is always the hardest.","patrice",-1)
@@ -59,6 +63,11 @@ function scr_game_text(_text_id){
 				scr_text("Make sure the next flowers go to her *wink*","jason",-1)
 				scr_text("Come on Alya, let's get out of here","aspen",1)
 			break;
+			
+		case "jason-1":
+			scr_text("Stinky")
+		break;
+			
 //------CONNOR----------//			
 		case "ov_connor":
 			scr_text("What do you want?", "connor", 1)

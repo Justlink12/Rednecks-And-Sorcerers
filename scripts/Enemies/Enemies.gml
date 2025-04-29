@@ -6,6 +6,7 @@ global.Enemies =
 	Gator : 
 	{
 		name: "Gator",
+		spec: "Business Gator",
 		en_sprite: spr_gator,
 		HP: 2300,
 		ENR: 156,
@@ -24,6 +25,7 @@ global.Enemies =
 	Rock : 
 	{
 		name: "Rock",
+		spec: "Silly Rock",
 		en_sprite: spr_rock,
 		HP: 423,
 		ENR: 496,
@@ -42,6 +44,8 @@ global.Enemies =
 	Ghost : 
 	{
 		HP: 213,
+		name: "Ghost",
+		spec: "Ghost",
 		ENR: 246,
 		SPD: 2.5,
 		Attacks :  
@@ -58,6 +62,7 @@ global.Enemies =
 	Mummy : 
 	{
 		name: "Mummy",
+		spec: "Mummy",
 		en_sprite : spr_mummy,
 		HP: 123,
 		ENR: 654,

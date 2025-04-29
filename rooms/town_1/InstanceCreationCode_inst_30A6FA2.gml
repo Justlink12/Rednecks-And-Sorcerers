@@ -1,5 +1,8 @@
 text_id = "jason"
-quest = false
+follow = ["jason","jason-1"]
+quest = true
+give = true
+item = "Flowers"
 item_need = "None"
 receive = false
 sprite_index = spr_jason_small

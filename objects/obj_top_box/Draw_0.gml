@@ -62,7 +62,7 @@ else
 {
 	if(enemy_turn)
 	{
-		draw_text(x + x_offset,y+ y_offset,get_enemy_data(global.curr_enem).name + " is attacking!")
+		draw_text(x + x_offset,y+ y_offset,get_enemy_data(global.curr_enem).spec + " is attacking!")
 		no_draw = true
 	}
 	else{

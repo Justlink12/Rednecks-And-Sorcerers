@@ -1,9 +1,12 @@
 text_id = "patrice-1"
-follow = "patrice-2"
+follow = ["patrice-1","patrice-2","patrice-3"]
 quest = true
 give = true
-item = "Flowers"
-item_need = "None"
-receive = false
+item = "Photo of Serial Killer"
+item_need = "Flowers"
+receive = true
+receive_first = true
 sprite_index = spr_patrice_small
 name = "Patrice"
+quest_num = 1
+advance = true

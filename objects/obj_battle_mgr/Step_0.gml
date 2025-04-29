@@ -5,6 +5,9 @@ var _exit = keyboard_check_pressed(vk_escape)
 var _cur_move = "Attacks"
 if(_exit)
 {
+	global.Characters.Alya.WAIT = 10
+	global.Characters.Aspen.WAIT = 10
+	get_enemy_data(global.curr_enem).WAIT = 10
 	scr_room(global.previous_room)
 }
 if(_space && attack_active)
@@ -91,7 +94,7 @@ if(_space && !attack_active)
 		
 	}
 	if(!skip){
-		attack_text = display_attack(_cur_char[0],get_enemy_data(global.curr_enem).name,cur_attack,slow)
+		attack_text = display_attack(_cur_char[0],get_enemy_data(global.curr_enem).spec,cur_attack,slow)
 	}
 	slow = false
 	if char_op >= char_num {char_op = 0 }
@@ -121,7 +124,7 @@ if(enemy_turn){
 		global.Characters.Alya.WAIT -= _wait_plus
 	}
 	_wait_plus = 0
-	attack_text = display_attack(get_enemy_data(global.curr_enem).name,vict,cur_attack,slow)
+	attack_text = display_attack(get_enemy_data(global.curr_enem).spec,vict,cur_attack,slow)
 	get_enemy_data(global.curr_enem).WAIT += 5 - (get_enemy_data(global.curr_enem).SPD / 10)
 	global.Characters.Aspen.WAIT -= 1
 	global.Characters.Alya.WAIT -= 1
