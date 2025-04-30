@@ -1,0 +1,12 @@
+text_id = "brandon-1"
+follow = ["brandon-1","brandon-2","brandon-3"]
+quest = true
+give = true
+item = "Job Application with Middle Finger Drawing"
+item_need = "Job Application"
+receive = true
+receive_first = true
+sprite_index = spr_brandon_small
+name = "Brandon"
+quest_num = 1
+advance = true

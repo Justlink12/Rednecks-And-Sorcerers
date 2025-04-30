@@ -1,0 +1,10 @@
+text_id = "lily-1"
+follow = ["lily-1","lily-2","lily-3"]
+quest = true
+give = false
+item = ""
+item_need = "Red Fish"
+receive = true
+sprite_index = spr_lily_small
+name = "Lily"
+advance = true

@@ -6,10 +6,10 @@ s_key = keyboard_check(ord("S"))
 d_key = keyboard_check(ord("D"))
 enter_key = keyboard_check_pressed(ord("B"))
 
-if(enter_key)
-{
-	scr_room(rm_grocery)
-}
+//if(enter_key)
+//{
+	//scr_room(rm_grocery)
+//}
 
 
 if(w_key){
@@ -35,7 +35,7 @@ if(place_meeting(x,y + (move_spd * y_spd),obj_wall))
 	y_spd = 0
 }
 
-if(instance_exists(obj_textbox))
+if(instance_exists(obj_textbox) or instance_exists(obj_bobber))
 {
 	x_spd = 0
 	y_spd = 0

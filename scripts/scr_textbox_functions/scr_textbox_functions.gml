@@ -139,6 +139,21 @@ function scr_text(_text){
 				speaker_name[page_number] = "Officer"
 				txtb_spr[page_number] = spr_textbox_blue
 				snd[page_number] = snd_water
+			break;
+			
+			case "ezekial":
+				speaker_sprite[page_number] = spr_ezekial_talk
+				speaker_name[page_number] = "Ezekial"
+				txtb_spr[page_number] = spr_textbox_blue
+				snd[page_number] = snd_water
+			break;
+			
+			case "lily":
+				speaker_sprite[page_number] = spr_lily_talk
+				speaker_name[page_number] = "Lily"
+				txtb_spr[page_number] = spr_textbox_blue
+				snd[page_number] = snd_water
+			break;
 
 
 		}

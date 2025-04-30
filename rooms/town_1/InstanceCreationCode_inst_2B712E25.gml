@@ -1,0 +1,13 @@
+text_id = "connor-1"
+follow = ["connor-1","connor-2","connor-3","connor-4"]
+quest = true
+give = true
+item = "Job Application"
+item_need = "Job Application with Middle Finger Drawing"
+receive = true
+receive_first = false
+sprite_index = spr_connor_small
+name = "Connor"
+quest_num = 2
+advance = false
+advance_2 = true

@@ -13,5 +13,6 @@ talk_point = 0
 has_item = false
 receive_first = false
 advance = false
+advance_2 = false
 image_xscale = 0.5
 image_yscale = 0.5

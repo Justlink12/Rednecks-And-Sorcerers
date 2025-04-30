@@ -10,14 +10,13 @@ function scr_game_text(_text_id){
 		
 		case "patrice-2":
 			//Top text
-			scr_text("Oh hi Aspen, can you take these flowers to my Jason for me He asked me to bring them to him but I'm very busy? Thanks!", "patrice", -1)
+			scr_text("Aspen, are you okay? Did you get a hook in your-", "patrice", -1)
 				//scr_text_color(8,13, c_white, c_maroon, c_aqua,c_white)
 				//scr_text_float(8,13)
 				//scr_text_shake(8,13)
-			scr_text("Oh, uh I guess?","aspen - happy",1)
-			scr_text("Here you go!","patrice",-1)
-				scr_option("Sure, whatever...","npc-1 - yes")
-				scr_option("Ugh...","npc 1 - no")
+			scr_text("No need to bring that up! Here, Ezekial asked us to bring you these flowers.","aspen - happy",1)
+			scr_text("Oh thx, heres a photo of my husbands killer lol","patrice",-1)
+
 		break;
 			case "npc-1 - yes":
 				scr_text("She didn't really give you a choice though.", "alya", -1)
@@ -45,39 +44,72 @@ function scr_game_text(_text_id){
 		
 		
 //-----JASON-----------//
-		case "jason":
+		case "jason-1":
+			scr_text("nerd")
+		break;
+		
+		case "jason-2":
 			scr_text("Oh, Aspen? What brings you here, without handcuffs on?", "jason",1)
 			scr_text("Oh, uh...", "aspen",-1)
 			scr_text("Ahhh, I'm just joking. Sorry if I embarrassed yyou infront of your new lady friend.", "jason",-1)
 			scr_text("Lady-friend? Aspen what does that mean?", "alya",-1)
-				scr_option("Hand over the flowers","aspen - rush")
-				scr_option("Oh, it just means... friends?","aspen - flust")
-			break;
-				
-			case "aspen - rush":
-				scr_text("Huh, oh thanks. I'll let Patrice know I appreciate these!","jason",-1)
+			scr_text("Tell us about serial killer")
 			break;
 			
-			case "aspen - flust":
-				scr_text("Oh, then yes I am his lady-friend","alya",-1)
-				scr_text("Make sure the next flowers go to her *wink*","jason",-1)
-				scr_text("Come on Alya, let's get out of here","aspen",1)
-			break;
-			
-		case "jason-1":
+		case "jason-3":
 			scr_text("Stinky")
 		break;
 			
 //------CONNOR----------//			
-		case "ov_connor":
-			scr_text("What do you want?", "connor", 1)
-			scr_text("I want you off my back! Another application for another stupid business?", "brandon",-1)
-			scr_text("Fixing cars isn't going to make you enough money Brandon. You should have gone to college like me. Mom and dad can't keep bailing you out.", "connor",1)
-			scr_text("Shove it Connor. Let me live my life. You don't see me messing with yours!", "brandon",-1)
+		case "connor-1":
+			scr_text("Take this to Brandon", "connor", 1)
+		break;
+		case "connor-2":
+			scr_text("Life sucks", "connor", 1)
+		break;
+		case "connor-3":
+			scr_text("He's so immature", "connor", 1)
+		break;
+		case "connor-4":
+			scr_text("U stink", "connor", 1)
+			scr_text("no u", "brandon", 1)
+		break;
+
+//--------BRANDON-------//
+		case "brandon-1":
+			scr_text("I like cars", "brandon", 1)
+		break;
+		case "brandon-2":
+			scr_text("Ew application. Take this back to connor", "brandon", 1)
+		break;
+		case "brandon-3":
+			scr_text("Connor Stinky", "brandon", 1)
+		break;
+
+//--------EZEKIAL--------//
+		case "ezekial-1":
+			scr_text("Take flowers to Patrice","ezekial",1)
+		break;
+		case "ezekial-2":
+			scr_text("GO AWAY NOW")
+		break;
+
+//------LILY---------//
+		case "lily-1":
+			scr_text("BRING ME FISHY","lily", 1)
 		break;
 		
+		case "lily-2":
+			scr_text("Thanks for fishy","lily", 1)
+		break;
+		
+		case "lily-3":
+			scr_text("FISHY SUCKED","lily",1)
+		break;
+
 		case "cop":
 			scr_text("No one is allowed through until the bunny killings is solved","cop")
+		break;
 		
 	}
 

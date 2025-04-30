@@ -1,0 +1,12 @@
+text_id = "ezekial-1"
+follow = ["ezekial-1","ezekial-2"]
+quest = true
+give = true
+item = "Flowers"
+item_need = ""
+receive = false
+receive_first = false
+sprite_index = spr_ez_small
+name = "Ezekial"
+quest_num = 0
+advance = false

@@ -1,9 +1,10 @@
-text_id = "jason"
-follow = ["jason","jason-1"]
+text_id = "jason-1"
+follow = ["jason-1","jason-2","jason-3"]
 quest = true
-give = true
-item = "Flowers"
-item_need = "None"
-receive = false
+give = false
+item = ""
+item_need = "Photo of Serial Killer"
+receive = true
 sprite_index = spr_jason_small
 name = "Jason"
+advance = true
