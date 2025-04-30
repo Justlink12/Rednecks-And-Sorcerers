@@ -5,9 +5,10 @@ var _exit = keyboard_check_pressed(vk_escape)
 var _cur_move = "Attacks"
 if(_exit)
 {
-	global.Characters.Alya.WAIT = 10
-	global.Characters.Aspen.WAIT = 10
+	global.Characters.Alya.WAIT = 20
+	global.Characters.Aspen.WAIT = 20
 	get_enemy_data(global.curr_enem).WAIT = 10
+	get_enemy_data(global.curr_enem).HP = get_enemy_data(global.curr_enem).Base_HP
 	scr_room(global.previous_room)
 }
 if(_space && attack_active)

@@ -21,6 +21,31 @@ function get_enemy_data(enemy)
 	{
 		return global.Enemies.Mummy	
 	}
+	
+	if enemy == "Ghost"
+	{
+		return global.Enemies.Ghost	
+	}
+	
+	if enemy == "Flame"
+	{
+		return global.Enemies.Flame
+	}
+	
+	if enemy == "Heron"
+	{
+		return global.Enemies.Heron	
+	}
+	
+	if enemy == "Raccoon"
+	{
+		return global.Enemies.Raccoon
+	}
+	
+	if enemy == "Spider"
+	{
+		return global.Enemies.Spider
+	}
 		
 	
 }

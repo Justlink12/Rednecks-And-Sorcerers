@@ -1,5 +1,6 @@
 depth = -bbox_bottom
-if (distance_to_object(obj_player) < 10) && keyboard_check_pressed(vk_space) && !instance_exists(obj_textbox)
+
+if ((distance_to_object(obj_player) < 10) && keyboard_check_pressed(vk_space) && !instance_exists(obj_textbox) && !wait)
 {
 	
 	if(quest)
@@ -10,6 +11,7 @@ if (distance_to_object(obj_player) < 10) && keyboard_check_pressed(vk_space) && 
 		if(give and !receive_first)
 		{
 			array_push(obj_player.invent,item)
+
 			if(quest_num>0 && advance_2)
 			{
 				quest = true
@@ -80,4 +82,29 @@ if (distance_to_object(obj_player) < 10) && keyboard_check_pressed(vk_space) && 
 		advance_2 = false
 	}
 	text_id = follow[talk_point]
+	
+	
+	if(special && room==town_2){
+		with(instance_create_depth(obj_player.x, obj_player.y,0,obj_enemy)){
+			en_id = "Gator"
+			image_alpha = 0
+			
+		}
+		instance_destroy()
+	}
+	if(jason && talk_point != 0 )
+	{
+		if(instance_exists(inst_alya_1))
+		{
+			inst_alya_1.wait = false
+			inst_alya_1.image_alpha = 1
+		}
+	}
+	if(special && room==town_1 && !wait){
+		
+		instance_destroy()
+	}
 }
+
+	
+	

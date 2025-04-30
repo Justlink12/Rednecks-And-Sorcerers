@@ -3,6 +3,29 @@ function scr_game_text(_text_id){
 	
 	switch(_text_id)
 	{
+		//--------ALYA-----------//
+		case "alya-intro":
+			scr_text("Awali is so stinky LMAO","alya",1)
+			scr_text("Does Awali know Link is stinky?","alya",1)
+				scr_option("Well he isn't?.", "response-1")
+				scr_option("Nah he's kinda hot tho.", "response-2")
+
+		break;
+		
+		case"response-1":
+			scr_text("I agree lol")
+			
+		break;
+		
+		case "response-2":
+			scr_text("Yeah, but Awali is def stimky XD","aspen - happy",-1)
+		break;
+		
+		case "alya-bridge":
+			scr_text("help me","alya",1)
+		break;
+		
+		
 		//--------Patrice---------------//
 		case "patrice-1":
 			scr_text("What up homie")
@@ -83,7 +106,7 @@ function scr_game_text(_text_id){
 			scr_text("Ew application. Take this back to connor", "brandon", 1)
 		break;
 		case "brandon-3":
-			scr_text("Connor Stinky", "brandon", 1)
+			scr_text("I see u awali", "brandon", 1)
 		break;
 
 //--------EZEKIAL--------//

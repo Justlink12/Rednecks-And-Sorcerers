@@ -8,3 +8,4 @@ receive = true
 sprite_index = spr_jason_small
 name = "Jason"
 advance = true
+jason = true

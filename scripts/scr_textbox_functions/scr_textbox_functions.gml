@@ -156,6 +156,7 @@ function scr_text(_text){
 			break;
 
 
+
 		}
 	}
 	if argument_count > 2
