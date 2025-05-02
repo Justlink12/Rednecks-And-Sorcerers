@@ -92,6 +92,15 @@ if ((distance_to_object(obj_player) < 10) && keyboard_check_pressed(vk_space) &&
 		}
 		instance_destroy()
 	}
+	
+	if(special && room==town_3){
+		with(instance_create_depth(obj_player.x, obj_player.y,0,obj_enemy)){
+			en_id = "Ghost"
+			image_alpha = 0
+			
+		}
+		instance_destroy()
+	}
 	if(jason && talk_point != 0 )
 	{
 		if(instance_exists(inst_alya_1))
@@ -104,6 +113,22 @@ if ((distance_to_object(obj_player) < 10) && keyboard_check_pressed(vk_space) &&
 		
 		instance_destroy()
 	}
+	
+	if(special_2)
+	{
+		talk_point += 1
+	}
+}
+if(special_2 && !instance_exists(inst_boss))
+{
+	wait = false
+	image_alpha = 1
+}
+
+if(special_2 && talk_point==1 && !instance_exists(obj_textbox))
+{
+	obj_player.won = true
+	instance_destroy()
 }
 
 	

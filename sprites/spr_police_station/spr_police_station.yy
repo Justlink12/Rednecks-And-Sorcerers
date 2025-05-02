@@ -23,7 +23,7 @@
   ],
   "name":"spr_police_station",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Town 1",
     "path":"folders/Sprites/Town 1.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":60,
-    "yorigin":50,
+    "yorigin":79,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

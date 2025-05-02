@@ -1,3 +1,3 @@
-start_x = 330
-start_y = 555
+start_x = 722
+start_y = 267
 next_room = town_1

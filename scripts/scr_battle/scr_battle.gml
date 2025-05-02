@@ -46,6 +46,16 @@ function get_enemy_data(enemy)
 	{
 		return global.Enemies.Spider
 	}
+	
+	if enemy == "Snake"
+	{
+		return global.Enemies.Snake
+	}
+	
+	if enemy == "Shade"
+	{
+		return global.Enemies.Shade
+	}
 		
 	
 }

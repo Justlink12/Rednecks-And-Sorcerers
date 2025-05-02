@@ -75,6 +75,7 @@ function scr_text_shake(_start, _end){
 /// @param text
 ///@param [character]
 ///@param [side]
+///@param [name]
 function scr_text(_text){
 	
 	scr_set_defaults_for_text()
@@ -154,7 +155,48 @@ function scr_text(_text){
 				txtb_spr[page_number] = spr_textbox_blue
 				snd[page_number] = snd_water
 			break;
-
+			
+			case "gg1":
+				speaker_sprite[page_number] = spr_guy_talk_1
+				speaker_name[page_number] = argument[3]
+				txtb_spr[page_number] = spr_textbox_blue
+				snd[page_number] = snd_water
+			break;
+			
+			case "gg2":
+				speaker_sprite[page_number] = spr_guy_talk_2
+				speaker_name[page_number] = argument[3]
+				txtb_spr[page_number] = spr_textbox_blue
+				snd[page_number] = snd_water
+			break;
+			
+			case "gg3":
+				speaker_sprite[page_number] = spr_guy_talk_3
+				speaker_name[page_number] = argument[3]
+				txtb_spr[page_number] = spr_textbox_blue
+				snd[page_number] = snd_water
+			break;
+			
+			case "ggi1":
+				speaker_sprite[page_number] = spr_girl_talk_1
+				speaker_name[page_number] = argument[3]
+				txtb_spr[page_number] = spr_textbox_blue
+				snd[page_number] = snd_water
+			break;
+			
+			case "ggi2":
+				speaker_sprite[page_number] = spr_girl_talk_2
+				speaker_name[page_number] = argument[3]
+				txtb_spr[page_number] = spr_textbox_blue
+				snd[page_number] = snd_water
+			break;
+			
+			case "ggi3":
+				speaker_sprite[page_number] = spr_girl_talk_3
+				speaker_name[page_number] = argument[3]
+				txtb_spr[page_number] = spr_textbox_blue
+				snd[page_number] = snd_water
+			break;
 
 
 		}

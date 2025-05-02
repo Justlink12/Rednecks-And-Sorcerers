@@ -5,20 +5,36 @@ function scr_game_text(_text_id){
 	{
 		//--------ALYA-----------//
 		case "alya-intro":
-			scr_text("Awali is so stinky LMAO","alya",1)
-			scr_text("Does Awali know Link is stinky?","alya",1)
-				scr_option("Well he isn't?.", "response-1")
-				scr_option("Nah he's kinda hot tho.", "response-2")
+			scr_text("Are you Aspen?","alya",-1)
+			scr_text("What the f-, who are you?","aspen",1)
+			scr_text("I had a vision to come here. I think you're supposed to help me?","alya",-1)
+				scr_option("A vision? Are you crazy?", "response-1")
+				scr_option("What the hell are you talking about?", "response-2")
 
 		break;
 		
 		case"response-1":
-			scr_text("I agree lol")
-			
+			scr_text("I'm not from your world. I am here on a mission, a dangerous sorcerer is attacking your world.","alya",-1)
+				scr_option("Is this some pyramid scheme?", "intro-end")
 		break;
 		
 		case "response-2":
-			scr_text("Yeah, but Awali is def stimky XD","aspen - happy",-1)
+			scr_text("We don't have much time, you need to help me find and defeat an evil sorcerer.","alya",-1)
+				scr_option("Look, I don't want whatever you're trying to sell.", "intro-end")
+		break;
+		
+		case "intro-end":
+			scr_text("Haven't you noticed things getting weird here? Magic residue is being left behind and affecting things.","alya",-1)
+			scr_text("I don't have time for weird fantasies. I just lost my job at the gas station, and I wanna go fish this stress away.","aspen",1)
+			scr_text("Please, it's dangerous to go alone!","alya",-1)
+			scr_text("Get off my property or I'll... what's that?","aspen",1)
+			scr_text("GROWLLLLL, wanna grrrrr hear my pitch?")
+				scr_text_shake(0,8)
+				scr_text_shake(17,22)
+			scr_text("That's proof your world is being damaged by the magic. If we don't fight it, your world could end!","alya",-1)
+			scr_text("Grrreat! Prospective clients! Grrowwwwwwwwwlllllll!")
+				scr_text_shake(30,49)
+			scr_text("There's no way out now, we have to fight!","alya",-1)		
 		break;
 		
 		case "alya-bridge":
@@ -82,6 +98,14 @@ function scr_game_text(_text_id){
 		case "jason-3":
 			scr_text("Stinky")
 		break;
+		
+		case "jason-final":
+			scr_text("Dats crazy", "jason",1)
+		break;
+		
+		case "hold":
+			scr_text("You shouldn't see this???", "jason",1)
+		break;
 			
 //------CONNOR----------//			
 		case "connor-1":
@@ -132,6 +156,26 @@ function scr_game_text(_text_id){
 
 		case "cop":
 			scr_text("No one is allowed through until the bunny killings is solved","cop")
+		break;
+		
+//--------BOSS--------//
+		case "boss":
+			scr_text("FIGHT")
+		break;
+		
+//--------DARIA--------//
+		case "daria":
+			scr_text("The Dead Bunnies is not to blame!","ggi2",1,"Daria")
+				scr_text_color(0,15, c_yellow, c_yellow, c_yellow, c_yellow)
+			scr_text("What do you mean?","Alya",-1)
+			scr_text("The police are blaming them for the rabbit killings! We knoe it's because they hate rock, so they are blaming them!","ggi2",1,"Daria")
+		break;
+		
+//-------DUSTIN-------//
+		case "dustin":
+			scr_text("The Dead Bunnies is not to blame!","gg2",1,"Dustin")
+			scr_text("What do you mean?","alya",-1)
+			scr_text("The police are blaming them for the rabbit killings! We knoe it's because they hate rock, so they are blaming them!","gg2",1,"Dustin")
 		break;
 		
 	}

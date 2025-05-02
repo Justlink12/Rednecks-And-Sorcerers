@@ -6,3 +6,4 @@ y_spd = 0
 invent = ["fishing rod"]
 display = false
 window_set_fullscreen(true)
+won = false

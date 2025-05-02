@@ -68,7 +68,7 @@ global.Enemies =
 		name: "Mummy",
 		spec: "Mummy",
 		en_sprite : spr_mummy,
-		HP: 123,
+		HP: 200,
 		Base_HP: 500,
 		ENR: 654,
 		SPD: 2.2,
@@ -87,7 +87,7 @@ global.Enemies =
 		name: "Flame",
 		spec: "Flame Guy",
 		en_sprite : spr_flame_guy,
-		HP: 123,
+		HP: 200,
 		Base_HP: 500,
 		ENR: 654,
 		SPD: 2.2,
@@ -106,7 +106,7 @@ global.Enemies =
 		name: "Heron",
 		spec: "Depressed Heron",
 		en_sprite : spr_heron,
-		HP: 123,
+		HP: 200,
 		Base_HP: 500,
 		ENR: 654,
 		SPD: 2.2,
@@ -125,7 +125,7 @@ global.Enemies =
 		name: "Raccoon",
 		spec: "Zombie Raccoon",
 		en_sprite : spr_raccoon,
-		HP: 123,
+		HP: 200,
 		Base_HP: 500,
 		ENR: 654,
 		SPD: 2.2,
@@ -144,7 +144,7 @@ global.Enemies =
 		name: "Spider",
 		spec: "Black Widow",
 		en_sprite : spr_spider,
-		HP: 123,
+		HP: 200,
 		Base_HP: 500,
 		ENR: 654,
 		SPD: 2.2,
@@ -158,4 +158,41 @@ global.Enemies =
 		WAIT: 20
 	},
 	
+	Snake : 
+	{
+		name: "Snake",
+		spec: "Uktena Serpent",
+		en_sprite : spr_snake,
+		HP: 200,
+		Base_HP: 500,
+		ENR: 654,
+		SPD: 2.2,
+		Attacks :
+		{
+			Lash: 8,
+			Hiss: 3
+		},
+		CUR_ATTACK_NAME: "idk",
+		CUR_ATTACK: 0,
+		WAIT: 20
+	},
+	
+	Shade : 
+	{
+		name: "Shade",
+		spec: "Croatan Shadebound",
+		en_sprite : spr_shade,
+		HP: 200,
+		Base_HP: 500,
+		ENR: 654,
+		SPD: 2.2,
+		Attacks :
+		{
+			Wrath: 8,
+			Possession: 3
+		},
+		CUR_ATTACK_NAME: "idk",
+		CUR_ATTACK: 0,
+		WAIT: 20
+	}
 }

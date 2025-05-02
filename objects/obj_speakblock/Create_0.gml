@@ -19,3 +19,4 @@ image_yscale = 0.5
 special=false
 wait = false
 jason = false
+special_2 = false

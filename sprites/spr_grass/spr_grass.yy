@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_grass",
   "bboxMode":0,
-  "bbox_bottom":317,
+  "bbox_bottom":511,
   "bbox_left":68,
   "bbox_right":508,
   "bbox_top":66,

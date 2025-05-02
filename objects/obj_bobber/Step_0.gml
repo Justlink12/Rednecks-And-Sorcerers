@@ -13,7 +13,7 @@ if(_hit == 20 && !fish)
 if(count >= 1 && !start && fish)
 {
 	count -= 1
-	if(_space)
+	if(_space && !place_meeting(obj_tp.x,obj_tp.y,obj_player))
 	{
 		var _fish = round(random_range(0,fish_amnt-1))
 		count = 0
