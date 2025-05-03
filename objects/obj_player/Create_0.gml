@@ -7,3 +7,5 @@ invent = ["fishing rod"]
 display = false
 window_set_fullscreen(true)
 won = false
+first_fish = false
+pass = false

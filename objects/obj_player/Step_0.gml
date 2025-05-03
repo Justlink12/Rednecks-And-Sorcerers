@@ -4,27 +4,29 @@ w_key = keyboard_check(ord("W"))
 a_key = keyboard_check(ord("A"))
 s_key = keyboard_check(ord("S"))
 d_key = keyboard_check(ord("D"))
-enter_key = keyboard_check_pressed(ord("B"))
+exit_key = keyboard_check_pressed(vk_escape)
 
-//if(enter_key)
-//{
-	//scr_room(rm_grocery)
-//}
-
-
-if(w_key){
-	y_spd = -1	
-}
-else if(s_key)
+if(exit_key)
 {
-	y_spd = 1
+	game_end()
 }
-if(a_key){
-	x_spd = -1	
-}
-else if(d_key)
+
+if(room != rm_test_battle)
 {
-	x_spd = 1
+	if(w_key){
+		y_spd = -1	
+	}
+	else if(s_key)
+	{
+		y_spd = 1
+	}
+	if(a_key){
+		x_spd = -1	
+	}
+	else if(d_key)
+	{
+		x_spd = 1
+	}
 }
 if(place_meeting(x + (move_spd * x_spd),y,obj_wall))
 {

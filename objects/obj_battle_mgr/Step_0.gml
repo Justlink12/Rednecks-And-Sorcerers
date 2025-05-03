@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 var _space = keyboard_check_pressed(vk_space)
-var _exit = keyboard_check_pressed(vk_escape)
+var _exit = keyboard_check_pressed(vk_backspace)
 var _cur_move = "Attacks"
 if(_exit)
 {

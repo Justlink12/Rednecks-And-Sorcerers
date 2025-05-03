@@ -135,6 +135,13 @@ function scr_text(_text){
 				snd[page_number] = snd_water
 			break;
 			
+			case "j":
+				speaker_sprite[page_number] = spr_j_talk
+				speaker_name[page_number] = "Jae"
+				txtb_spr[page_number] = spr_textbox_grey
+				snd[page_number] = snd_water
+			break;
+			
 			case "cop":
 				speaker_sprite[page_number] = spr_cop_talk
 				speaker_name[page_number] = "Officer"

@@ -3,8 +3,8 @@ global.Characters =
 	//Aspen
 	Aspen : 
 	{
-		HP: 321,
-		ENR: 156,
+		HP: 999,
+		ENR: 999,
 		SPD: 1.75,
 		Attacks :  
 		{
@@ -20,8 +20,8 @@ global.Characters =
 	
 	Alya : 
 	{
-		HP: 423,
-		ENR: 496,
+		HP: 999,
+		ENR: 999,
 		SPD: 2,
 	
 		Attacks :  

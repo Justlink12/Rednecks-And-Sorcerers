@@ -8,10 +8,10 @@ global.Enemies =
 		name: "Gator",
 		spec: "Business Gator",
 		en_sprite: spr_gator,
-		HP: 2300,
-		Base_HP: 500,
+		HP: 150,
+		Base_HP: 150,
 		ENR: 156,
-		SPD: 1.75,
+		SPD: 1.85,
 		Attacks :  
 		{
 			Slam: 15,
@@ -28,8 +28,8 @@ global.Enemies =
 		name: "Rock",
 		spec: "Silly Rock",
 		en_sprite: spr_rock,
-		HP: 423,
-		Base_HP: 500,
+		HP: 150,
+		Base_HP: 150,
 		ENR: 496,
 		SPD: 2,
 	
@@ -45,7 +45,7 @@ global.Enemies =
 	
 	Ghost : 
 	{
-		HP: 213,
+		HP: 300,
 		name: "Ghost",
 		spec: "Jack Rabbit Killer",
 		Base_HP: 500,
@@ -68,10 +68,10 @@ global.Enemies =
 		name: "Mummy",
 		spec: "Mummy",
 		en_sprite : spr_mummy,
-		HP: 200,
-		Base_HP: 500,
+		HP: 150,
+		Base_HP: 150,
 		ENR: 654,
-		SPD: 2.2,
+		SPD: 1.2,
 		Attacks :
 		{
 			Wraps: 8,
@@ -87,10 +87,10 @@ global.Enemies =
 		name: "Flame",
 		spec: "Flame Guy",
 		en_sprite : spr_flame_guy,
-		HP: 200,
-		Base_HP: 500,
+		HP: 150,
+		Base_HP: 150,
 		ENR: 654,
-		SPD: 2.2,
+		SPD: 2,
 		Attacks :
 		{
 			Fireball: 8,
@@ -106,10 +106,10 @@ global.Enemies =
 		name: "Heron",
 		spec: "Depressed Heron",
 		en_sprite : spr_heron,
-		HP: 200,
-		Base_HP: 500,
+		HP: 150,
+		Base_HP: 150,
 		ENR: 654,
-		SPD: 2.2,
+		SPD: 1.5,
 		Attacks :
 		{
 			Claws: 8,
@@ -125,10 +125,10 @@ global.Enemies =
 		name: "Raccoon",
 		spec: "Zombie Raccoon",
 		en_sprite : spr_raccoon,
-		HP: 200,
-		Base_HP: 500,
+		HP: 150,
+		Base_HP: 150,
 		ENR: 654,
-		SPD: 2.2,
+		SPD: 1.8,
 		Attacks :
 		{
 			Bite: 8,
@@ -144,10 +144,10 @@ global.Enemies =
 		name: "Spider",
 		spec: "Black Widow",
 		en_sprite : spr_spider,
-		HP: 200,
-		Base_HP: 500,
+		HP: 150,
+		Base_HP: 150,
 		ENR: 654,
-		SPD: 2.2,
+		SPD: 2.5,
 		Attacks :
 		{
 			Bite: 8,
@@ -163,10 +163,10 @@ global.Enemies =
 		name: "Snake",
 		spec: "Uktena Serpent",
 		en_sprite : spr_snake,
-		HP: 200,
-		Base_HP: 500,
+		HP: 150,
+		Base_HP: 150,
 		ENR: 654,
-		SPD: 2.2,
+		SPD: 2.4,
 		Attacks :
 		{
 			Lash: 8,
@@ -182,10 +182,10 @@ global.Enemies =
 		name: "Shade",
 		spec: "Croatan Shadebound",
 		en_sprite : spr_shade,
-		HP: 200,
-		Base_HP: 500,
+		HP: 150,
+		Base_HP: 150,
 		ENR: 654,
-		SPD: 2.2,
+		SPD: 1.9,
 		Attacks :
 		{
 			Wrath: 8,

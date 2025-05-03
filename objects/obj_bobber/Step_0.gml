@@ -15,9 +15,22 @@ if(count >= 1 && !start && fish)
 	count -= 1
 	if(_space && !place_meeting(obj_tp.x,obj_tp.y,obj_player))
 	{
-		var _fish = round(random_range(0,fish_amnt-1))
+		if(!obj_player.first_fish)
+		{
+			array_push(obj_player.invent, fish_types[0])
+			obj_player.first_fish = true
+		}
+		else{
+			if(array_length(obj_player.invent) <= 6)
+			{
+				var _fish = round(random_range(0,fish_amnt-1))
+				
+				array_push(obj_player.invent, fish_types[_fish])
+				
+			}
+			
+		}
 		count = 0
-		array_push(obj_player.invent, fish_types[_fish])
 		instance_destroy()
 	}
 	
