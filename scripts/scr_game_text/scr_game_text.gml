@@ -284,11 +284,45 @@ function scr_game_text(_text_id){
 			scr_text("Ezekial sure seems down... Why is he working his shift at the store if he isn't well.","ggi3",1,"Natalie")
 		break;
 		
-//--------NATALIE------//
+//--------Rocky------//
 		case "rocky":
 			scr_text("...","gg3",1,"Rocky")
 			scr_text("...","alya",1)
 			scr_text("...","aspen",1)
+		break;
+		
+//--------HINT------//
+		case "hint":
+			scr_text("What hint would you like?")
+				scr_option("Objective 1", "hint-1")
+				scr_option("Objective 2", "hint-2")
+				scr_option("Objective 3", "hint-3")
+				scr_option("Objective 4", "hint-4")
+				scr_option("None","leave")
+		break;
+		
+		case "hint-1":
+			scr_text("Find Ezekial.")
+			scr_text("*CLICK*")
+		break;
+		
+		case "hint-2":
+			scr_text("Take the flowers to Patrice.")
+			scr_text("*CLICK*")
+		break;
+		
+		case "hint-3":
+			scr_text("Get more info from Jason.")
+			scr_text("*CLICK*")
+		break;
+		
+		case "hint-4":
+			scr_text("Find the bridge on the river.")
+			scr_text("*CLICK*")
+		break;
+		
+		case "leave":
+			scr_text("*CLICK*")
 		break;
 	}
 
